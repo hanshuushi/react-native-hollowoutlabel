@@ -9,7 +9,6 @@
    View,
    requireNativeComponent
  } from 'react-native';
- import Session from './Session';
 
  const NativeHollowoutLabel = requireNativeComponent('LTHollowoutLabel', HollowoutLabel);
 

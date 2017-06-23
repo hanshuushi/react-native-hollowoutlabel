@@ -1,119 +1,26 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "react-native-linear-gradient",
-        "scope": null,
-        "escapedName": "react-native-linear-gradient",
-        "name": "react-native-linear-gradient",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/Users/Latte/项目/Zhiyou/FlygoFlymanRN"
-    ]
-  ],
-  "_cnpm_publish_time": 1484147430752,
-  "_from": "react-native-linear-gradient@latest",
-  "_hasShrinkwrap": false,
-  "_id": "react-native-linear-gradient@2.0.0",
-  "_inCache": true,
-  "_location": "/react-native-linear-gradient",
-  "_nodeVersion": "7.4.0",
-  "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/react-native-linear-gradient-2.0.0.tgz_1484147430095_0.44303872948512435"
+  "name": "react-native-hollowoutlabel",
+  "version": "0.1.1",
+  "description": "a hollowoutlabel in react native",
+  "main": "index.ios.js",
+  "scripts": {
+    "test": "make test"
   },
-  "_npmUser": {
-    "name": "dgl",
-    "email": "dmitry.gladkov@gmail.com"
-  },
-  "_npmVersion": "4.1.1",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "react-native-linear-gradient",
-    "scope": null,
-    "escapedName": "react-native-linear-gradient",
-    "name": "react-native-linear-gradient",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "http://r.cnpmjs.org/react-native-linear-gradient/download/react-native-linear-gradient-2.0.0.tgz",
-  "_shasum": "7442c00e1fcd9fca329119dcbaf744d12bcd1b5a",
-  "_shrinkwrap": null,
-  "_spec": "react-native-linear-gradient",
-  "_where": "/Users/Latte/项目/Zhiyou/FlygoFlymanRN",
-  "author": {
-    "name": "Brent Vatne",
-    "email": "brentvatne@gmail.com",
-    "url": "https://github.com/brentvatne"
-  },
-  "bugs": {
-    "url": "https://github.com/brentvatne/react-native-linear-gradient/issues"
-  },
-  "contributors": [
-    {
-      "name": "Nick Hudkins",
-      "email": "nick@nickhudkins.com",
-      "url": "https://github.com/nickhudkins"
-    },
-    {
-      "name": "Dmitry Gladkov",
-      "email": "dmitry.gladkov@gmail.com",
-      "url": "https://github.com/dgladkov"
-    }
-  ],
-  "dependencies": {},
-  "description": "A <LinearGradient> element for react-native",
-  "devDependencies": {
-    "jest-cli": "0.2.1"
-  },
-  "directories": {},
-  "dist": {
-    "shasum": "7442c00e1fcd9fca329119dcbaf744d12bcd1b5a",
-    "size": 906145,
-    "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/react-native-linear-gradient/download/react-native-linear-gradient-2.0.0.tgz"
-  },
-  "gitHead": "14bf9a06a7a1a28a1c1eab84a7f129f17fd88d83",
-  "homepage": "https://github.com/brentvatne/react-native-linear-gradient#readme",
-  "license": "MIT",
-  "main": "index",
-  "maintainers": [
-    {
-      "name": "brentvatne",
-      "email": "brentvatne@gmail.com"
-    },
-    {
-      "name": "dgl",
-      "email": "dmitry.gladkov@gmail.com"
-    },
-    {
-      "name": "frantic",
-      "email": "alex.frantic@gmail.com"
-    },
-    {
-      "name": "gantman",
-      "email": "gantman+npm@gmail.com"
-    },
-    {
-      "name": "nickhudkins",
-      "email": "nick@nickhudkins.com"
-    }
-  ],
-  "name": "react-native-linear-gradient",
-  "optionalDependencies": {},
-  "publish_time": 1484147430752,
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/brentvatne/react-native-linear-gradient.git"
+    "url": "git+https://github.com/hanshuushi/react-native-hollowoutlabel.git"
   },
-  "scripts": {},
-  "version": "2.0.0"
+  "keywords": [
+    "f19890522"
+  ],
+  "author": {
+    "name": "hanshuushi",
+    "email": "hanshuushi@icloud.com",
+    "url": "https://github.com/hanshuushi"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanshuushi/react-native-hollowoutlabel/issues"
+  },
+  "homepage": "https://github.com/hanshuushi/react-native-hollowoutlabel#readme"
 }
