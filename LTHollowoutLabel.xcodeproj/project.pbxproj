@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E9EA93A1EFB9FB500CE2C5E /* LTHollowoutLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9EA9391EFB9FB500CE2C5E /* LTHollowoutLabel.m */; };
+		8E9EA93B1EFB9FB500CE2C5E /* LTHollowoutLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E9EA9381EFB9FB500CE2C5E /* LTHollowoutLabel.h */; };
+		8E9EA9431EFB9FDF00CE2C5E /* LTHollowoutLabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9EA9421EFB9FDF00CE2C5E /* LTHollowoutLabelManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E9EA9331EFB9FB500CE2C5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8E9EA93B1EFB9FB500CE2C5E /* LTHollowoutLabel.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8E9EA9351EFB9FB500CE2C5E /* libLTHollowoutLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTHollowoutLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9EA9381EFB9FB500CE2C5E /* LTHollowoutLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTHollowoutLabel.h; sourceTree = "<group>"; };
+		8E9EA9391EFB9FB500CE2C5E /* LTHollowoutLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTHollowoutLabel.m; sourceTree = "<group>"; };
+		8E9EA9411EFB9FDF00CE2C5E /* LTHollowoutLabelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTHollowoutLabelManager.h; sourceTree = "<group>"; };
+		8E9EA9421EFB9FDF00CE2C5E /* LTHollowoutLabelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTHollowoutLabelManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E9EA9321EFB9FB500CE2C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E9EA92C1EFB9FB500CE2C5E = {
+			isa = PBXGroup;
+			children = (
+				8E9EA9371EFB9FB500CE2C5E /* LTHollowoutLabel */,
+				8E9EA9361EFB9FB500CE2C5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E9EA9361EFB9FB500CE2C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E9EA9351EFB9FB500CE2C5E /* libLTHollowoutLabel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E9EA9371EFB9FB500CE2C5E /* LTHollowoutLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8E9EA9381EFB9FB500CE2C5E /* LTHollowoutLabel.h */,
+				8E9EA9391EFB9FB500CE2C5E /* LTHollowoutLabel.m */,
+				8E9EA9411EFB9FDF00CE2C5E /* LTHollowoutLabelManager.h */,
+				8E9EA9421EFB9FDF00CE2C5E /* LTHollowoutLabelManager.m */,
+			);
+			path = LTHollowoutLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E9EA9341EFB9FB500CE2C5E /* LTHollowoutLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9EA93E1EFB9FB500CE2C5E /* Build configuration list for PBXNativeTarget "LTHollowoutLabel" */;
+			buildPhases = (
+				8E9EA9311EFB9FB500CE2C5E /* Sources */,
+				8E9EA9321EFB9FB500CE2C5E /* Frameworks */,
+				8E9EA9331EFB9FB500CE2C5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTHollowoutLabel;
+			productName = LTHollowoutLabel;
+			productReference = 8E9EA9351EFB9FB500CE2C5E /* libLTHollowoutLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E9EA92D1EFB9FB500CE2C5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "范舟弛";
+				TargetAttributes = {
+					8E9EA9341EFB9FB500CE2C5E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7W9NW3HF4L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8E9EA9301EFB9FB500CE2C5E /* Build configuration list for PBXProject "LTHollowoutLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E9EA92C1EFB9FB500CE2C5E;
+			productRefGroup = 8E9EA9361EFB9FB500CE2C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E9EA9341EFB9FB500CE2C5E /* LTHollowoutLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E9EA9311EFB9FB500CE2C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9EA9431EFB9FDF00CE2C5E /* LTHollowoutLabelManager.m in Sources */,
+				8E9EA93A1EFB9FB500CE2C5E /* LTHollowoutLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E9EA93C1EFB9FB500CE2C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E9EA93D1EFB9FB500CE2C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E9EA93F1EFB9FB500CE2C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7W9NW3HF4L;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8E9EA9401EFB9FB500CE2C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7W9NW3HF4L;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E9EA9301EFB9FB500CE2C5E /* Build configuration list for PBXProject "LTHollowoutLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9EA93C1EFB9FB500CE2C5E /* Debug */,
+				8E9EA93D1EFB9FB500CE2C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9EA93E1EFB9FB500CE2C5E /* Build configuration list for PBXNativeTarget "LTHollowoutLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9EA93F1EFB9FB500CE2C5E /* Debug */,
+				8E9EA9401EFB9FB500CE2C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E9EA92D1EFB9FB500CE2C5E /* Project object */;
+}
