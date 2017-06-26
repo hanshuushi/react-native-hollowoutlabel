@@ -1,8 +1,8 @@
 {
   "name": "react-native-hollowoutlabel",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "a hollowoutlabel in react native",
-  "main": "index.ios.js",
+  "main": "main.js",
   "scripts": {
     "test": "make test"
   },
