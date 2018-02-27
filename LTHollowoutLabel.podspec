@@ -13,5 +13,4 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/hanshuushi/react-native-hollowoutlabel.git', :tag => s.version.to_s }
   s.source_files    = 'LTHollowoutLabel/*.{h,m}'
   s.ios.deployment_target = '7.0'
-  s.dependency 'React'
 end
